@@ -1,0 +1,447 @@
+/* 	================= 
+		MAIN.CSS
+	================= */
+
+/* !!! CSS RESET !!! */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 	==============================================
+		BEGIN AUTHOR STYLING
+	============================================== */
+
+* {
+	/*color: blue;*/
+}
+
+body {
+	background-color: blue;
+	/*outline: 1px solid rgb(0,0,255);*/
+}
+
+.mobile {
+	display: none;
+}
+
+/* 	===========================
+		TYPOGRAPHY
+	=========================== */
+
+h1,
+h2 {
+	color: white;
+}
+
+.border-bottom,
+.tran {
+	text-decoration: underline;
+}
+
+.tran {
+	/*color: rgba(255,255,255,0);*/
+}
+
+.main{
+	font-family: 'Tienne', serif;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 65px;
+	margin-bottom: 40px;
+	text-align: justify;
+}
+
+.main a:link,
+.main a:visited {
+	color: yellow;
+	/*text-shadow: 3px 3px 5px yellow;*/
+}
+
+.main a:hover{
+	/*font-style: italic;*/
+}
+
+.statement {
+	font-family: 'Kanit', sans-serif;
+	font-size: 55px;
+	line-height: 65px;
+	margin-bottom: 50px;
+	text-align: justify;
+}
+
+.collaboration,
+.comission {
+	font-family: 'Kanit', sans-serif;
+	font-size: 55px;
+	line-height: 60px;
+	margin-bottom: 50px;
+	font-style: italic;
+	text-align: justify;
+	text-align: center;
+}
+
+.collaboration a:link,
+.collaboration a:visited,
+.comission a:link,
+.comission a:visited {
+	font-size: 20px;
+	padding:0 10px;
+	font-style: normal;
+	color:white;
+	text-decoration: none;
+	border: 1px solid yellow;
+}
+
+.collaboration a:hover,
+.comission a:hover {
+	color: blue;
+	background-color: yellow;
+}
+
+.collaboration {
+	margin-top: 190px;
+}
+
+.comission {
+	margin-bottom: 240px;
+}
+
+
+.a-container {
+	height: auto;
+	margin-bottom: 80px;
+}
+
+h2 {
+	float: right;
+	margin-top: 10%;
+	margin-right: 10%;
+	width: 40%;
+	font-family: 'Tienne', serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 46px;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+	text-align: left;
+	vertical-align: middle;
+
+}
+
+h3 {
+	font-family: 'Kanit', sans-serif;
+	margin-top: 300px;
+	font-size: 55px;
+	line-height: 65px;
+	color: white;
+	text-align: center;	
+}
+
+#three-container {
+	background-color: blue;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: -100;
+}
+
+
+/* 	===========================
+		IMAGES
+	=========================== */
+
+.a-container img {
+	margin-left: 10%;
+	width: 30%;
+}
+
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media (max-width: 1100px) {
+	h2 {
+		font-size: 36px;
+		line-height: 42px;
+		letter-spacing: 3px;
+
+	}
+}
+
+@media (max-width: 900px) {
+	h2 {
+		font-size: 30px;
+		line-height: 36px;
+		letter-spacing: 3px;
+
+	}
+
+	.collaboration {
+		margin-top: 140px;
+	}
+
+	.comission {
+		margin-bottom: 160px;
+	}
+
+
+}
+
+@media (max-width: 800px) {
+
+	.collaboration,
+	.comission {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.collaboration {
+		margin-top: 100px;
+	}
+
+	.comission {
+		margin-bottom: 120px;
+	}
+
+	.a-container img {
+		margin-top: 80px;
+		margin-left: 10%;
+		width: 80%;
+	}
+
+	h2 {
+		float: left;
+		width: 90%;
+		margin-left: 5%;
+		font-size: 38px;
+		line-height: 42px;
+		letter-spacing: 3px;
+		text-align: left;
+
+	}
+
+	h3 {
+		margin-top: 400px;
+		font-size: 45px;
+		line-height: 55px;
+	}
+
+	.main{
+		font-size: 40px;
+		line-height: 55px;
+		margin-bottom: 40px;
+	}
+
+	.statement {
+		font-size: 45px;
+		line-height: 55px;
+		margin-bottom: 50px;
+	}
+
+	.collaboration,
+	.comission {
+		font-size: 45px;
+		line-height: 50px;
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 600px) {
+	h2 {
+		float: left;
+		width: 90%;
+		margin-left: 5%;
+		font-size: 30px;
+		line-height: 36px;
+		letter-spacing: 3px;
+		text-align: left;
+
+	}
+
+	h3 {
+		margin-top: 300px;
+		font-size: 35px;
+		line-height: 45px;
+	}
+
+	.main {
+		font-size: 30px;
+		line-height: 45px;
+		margin-bottom: 30px;
+	}
+
+	.statement {
+		font-size: 35px;
+		line-height: 45px;
+		margin-bottom: 40px;
+	}
+
+	.collaboration,
+	.comission {
+		font-size: 35px;
+		line-height: 40px;
+		margin-bottom: 40px;
+	}
+
+}
+
+@media (max-width: 550px) {
+	h2 {
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 0;
+	}
+
+	h3 {
+		margin-top: 250px;
+		font-size: 35px;
+		line-height: 45px;
+	}
+
+	.main {
+		font-size: 30px;
+		line-height: 45px;
+		margin-bottom: 40px;
+	}
+`
+	.statement {
+		font-size: 35px;
+		line-height: 45px;
+		margin-bottom: 50px;
+	}
+
+	.collaboration,
+	.comission {
+		font-size: 35px;
+		line-height: 40px;
+		margin-bottom: 50px;
+	}
+
+}
+
+
+@media (max-width: 500px) {
+
+	.main {
+		font-size: 20px;
+		line-height: 35px;
+		margin-bottom: 20px;
+	}
+
+	.statement {
+		font-size: 25px;
+		line-height: 35px;
+		margin-bottom: 30px;
+	}
+
+	.collaboration a:link,
+	.collaboration a:visited,
+	.comission a:link,
+	.comission a:visited {
+		display: none;
+	}
+
+	.collaboration,
+	.comission {
+		margin-bottom: 20px;
+	}
+
+	h3 {
+		margin-top: 200px;
+		font-size: 25px;
+		line-height: 45px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.mobile {
+		display: block;
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 30px;
+	}
+
+	.mobile li {
+		text-align: center;
+		margin-bottom: 20px;
+		padding: 4px 0;
+		width: 100%;
+		border: 1px solid white;
+	}
+
+	.mobile li a:link,
+	.mobile li a:visited {
+		color: white;
+		text-align: center;
+		font-family: 'Kanit', sans-serif;
+		font-size: 20px;
+		padding: 4px 20%;
+		text-decoration: none;
+	}
+
+	.mobile2 {
+		margin-bottom: 40px;
+	}
+
+}
+
+@media (max-width: 400px) {
+
+	h3 {
+		margin-top: 200px;
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+
+}
+
+
