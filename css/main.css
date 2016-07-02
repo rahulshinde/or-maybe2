@@ -70,32 +70,87 @@ body {
 	display: none;
 }
 
+
 /* 	===========================
-		TYPOGRAPHY
+		HEADER
 	=========================== */
+
+/* Typography */
+
+.transparent {
+	color: rgba(0,0,255,0);
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.italic {
+	font-style: italic;
+}
 
 h1,
 h2 {
 	color: white;
 }
 
-.title {
-	width: 100%;
-	text-align: justify;
-	font-family: 'Tienne', serif;
-	font-size: 24px;
-	letter-spacing: 1px;
+a:link,
+a:visited {
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px solid white;
+	/*text-shadow: 3px 3px 5px yellow;*/
 }
 
-
-.sections {
-	margin-top: 20px;
-	width: 100%;
-	text-align: left;
-	font-size: 24px;
-	font-family: 'Kanit', sans-serif;
+a:hover {
 	color: yellow;
+	border-bottom: 2px solid yellow;
+}
 
+.heading a:link,
+.heading a:visited {
+	margin-bottom: -2px;
+}
+
+.heading {
+	
+	font-family: 'Tienne', serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 45px;
+	margin-bottom: 40px;
+}
+
+.statement1 {
+	float: left;
+	width: 48%;
+	font-family: 'Kanit', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 40px;
+}
+
+.statement2 {
+	float: left;
+	width: 48%;
+	margin-left: 4%;
+	font-family: 'Tienne', serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 40px;
+}
+
+#clock {
+	float: right;
+	width: 40%;
+	margin-top: 30px;
+
+	font-family: 'Kanit', sans-serif;
+	font-style: italic;
+	font-size: 18px;
+	letter-spacing: 8;
+	text-align: center;
 }
 
 .title:after {
@@ -104,20 +159,89 @@ h2 {
      display: inline-block;
 }
 
+/* LAYOUT */
 
-/* 	===========================
-		IMAGES
-	=========================== */
-
-/* 	===========================
-		LAYOUT
-	=========================== */
-
-.header {
-	width: 100%;
-	position: fixed
+.left {
+	float: left;
+	padding-top: 0.5%;
+	width: 59%;
+	margin-left: 1%;
+	text-align: left;
 }
 
+
+/* IMAGES */
+
+.right img {
+	float: right;
+	width: 36%;
+	margin-right: 2%;
+	margin-top: 10px;
+}
+
+.right img.logo {
+	float: right;
+	width: 20%;
+	margin-right: 10%;
+}
+
+.left img.arrows {
+	width: 60%;
+	margin-left: 20%;
+}
+
+/*  =======================
+    PROJECT LIST 
+    ======================= */
+
+/* TYPOGRAPHY */
+
+.project-container {
+	font-family: 'Tienne', sans-serif;
+	font-size: 40px;
+	line-height: 70px;
+	font-weight: 400;
+	text-align: left;
+}
+
+.kanit {
+	font-family: 'Kanit', sans-serif;
+	font-size: 43px;
+	letter-spacing: 1;
+}
+
+.project-container a:link,
+.project-container a:visited {
+	text-decoration: none;
+	border-bottom: 2px solid white;
+	color: white;
+}
+
+.project-container a:hover {
+	border-bottom: 2px solid yellow;
+	color: yellow;
+}
+
+/* LAYOUT */
+
+.project-list {
+	clear: left;
+	width: 98%;
+	margin-left: 1%;
+	padding-top: 200px;
+	padding-bottom: 200px; 
+}
+
+.project-list a {
+}
+/* IMG */
+
+.project-list a {
+}
+
+#link-4 {
+
+}
 
 
 /*  =======================
