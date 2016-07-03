@@ -415,6 +415,13 @@ h2 {
 	.project-archive img {
 		width: 11.5%;
 	}
+
+	#text {
+		font-family: 'Kanit', sans-serif;
+		font-size: 32px;
+		line-height: 44px;
+		color: white;
+	}
 }
 
 @media (min-width: 1450px) and (max-width: 1769px) {
@@ -505,6 +512,14 @@ h2 {
 	.project-archive img {
 		width: 11.5%;
 	}
+
+	#text {
+		font-family: 'Kanit', sans-serif;
+		font-size: 32px;
+		line-height: 44px;
+		color: white;
+	}
+
 }
 
 @media (max-width: 900px) {
