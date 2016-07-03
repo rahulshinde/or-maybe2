@@ -548,6 +548,25 @@ h2 {
 		line-height: 40px;
 	}
 
+/* 	===========================
+		PROJECT ARCHIVE
+	=========================== */
+
+	#text {
+		font-size: 22px;
+		line-height: 36px;
+	}
+
+	/* LAYOUT */
+
+	.project-archive img {
+		vertical-align: middle;
+		display: inline-block;
+		width: 19.5%;
+		margin-top: 1%;
+		margin-right: 1%;
+		margin-bottom: 1%;
+	}
 
 }
 
@@ -565,7 +584,22 @@ h2 {
 	.statement2 {
 		font-size: 12px;
 		line-height: 20px;
-	}	
+	}
+
+/* 	===========================
+		PROJECT ARCHIVE
+	=========================== */
+
+	#text {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	/* LAYOUT */
+
+	.project-archive img {
+		width: 22%;
+	}
 }
 
 @media (max-width: 850px) {
@@ -634,6 +668,21 @@ h2 {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
+
+/* 	===========================
+		PROJECT ARCHIVE
+	=========================== */
+
+	#text {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	/* LAYOUT */
+
+	.project-archive img {
+		width: 26%;
+	}
 	
 
 }
@@ -668,6 +717,21 @@ h2 {
 		margin-left: 1%;
 		font-size: 12px;
 		line-height: 20px;
+	}
+
+/* 	===========================
+		PROJECT ARCHIVE
+	=========================== */
+
+	#text {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	/* LAYOUT */
+
+	.project-archive img {
+		width:32%;
 	}
 
 }
@@ -724,6 +788,21 @@ h2 {
 		letter-spacing: 8;
 		text-align: center;
 		vertical-align: top;
+	}
+
+/* 	===========================
+		PROJECT ARCHIVE
+	=========================== */
+
+	#text {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	/* LAYOUT */
+
+	.project-archive img {
+		width:40%;
 	}
 
 }
