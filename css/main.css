@@ -64,7 +64,11 @@ table {
 body {
 	background-color: blue;
 	/*outline: 1px solid rgb(0,0,255);*/
-	overflow-x:hidden;
+	cursor:crosshair; 
+}
+
+a:hover {
+	cursor: cell;
 }
 
 .container {
@@ -74,6 +78,7 @@ body {
 	overflow-x:hidden;
 	overflow-y:scroll;
 	-webkit-overflow-scrolling: touch;
+	cursor:crosshair;
 }
 
 .mobile {
