@@ -352,7 +352,7 @@ h2 {
 
 	.statement1 {
 		float: left;
-		width: 80%;
+		width: 48%;
 		font-family: 'Kanit', sans-serif;
 		font-size: 20px;
 		line-height: 24px;
@@ -361,7 +361,7 @@ h2 {
 
 	.statement2 {
 		float: left;
-		width: 80%;
+		width: 48%;
 		font-size: 18px;
 		line-height: 22px;
 		margin-bottom: 40px;
