@@ -411,6 +411,10 @@ h2 {
 		width: 60%;
 		margin-left: 20%;
 	}
+
+	.project-archive img {
+		width: 11.5%;
+	}
 }
 
 @media (max-width: 900px) {
