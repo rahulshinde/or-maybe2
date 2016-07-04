@@ -309,6 +309,10 @@ h2 {
 
 /* LAYOUT */
 
+.project {
+	margin-bottom: 100px;
+}
+
 .project-archive {
 	position: relative;
 	clear: left;
